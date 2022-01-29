@@ -34,7 +34,7 @@ const NotesTable = () => {
 		));
 
 	return (
-		<table className="container table">
+		<table className="table">
 			<thead>
 				<tr>
 					<th scope="col">#</th>

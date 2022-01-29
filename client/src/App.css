@@ -1,10 +1,9 @@
-body {
+
+.new-note_modal {
+	display: flex;
+	justify-content: right;
 }
 
-td {
-	padding: 0;
-}
-
-th {
-	padding: 0;
+.new-note_modal input {
+	
 }

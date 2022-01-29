@@ -7,11 +7,13 @@ export const NewNoteModal = () => {
 
 	return (
 		<Form
+			className="new-note_modal"
 			onSubmit={e => {
 				e.preventDefault();
 			}}
 		>
 			<input
+				className="edit"
 				value={newNote}
 				onChange={e => setNewNote(e.target.value)}
 				type="text"

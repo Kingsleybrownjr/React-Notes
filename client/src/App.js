@@ -4,7 +4,7 @@ import NotesTable from './components/NotesTable';
 import { NewNoteModal } from './components/NotesModal';
 
 const App = () => (
-	<div className="App">
+	<div className="App container">
 		<div>
 			<NewNoteModal />
 		</div>
